@@ -21,8 +21,9 @@ height: 50px;
 background-color: #e2645a;
 }
 
-#teste1{
+.teste1{
   border-color: green;
+  height: 200px;
 }
 
 @media (prefers-reduced-motion: no-preference) {

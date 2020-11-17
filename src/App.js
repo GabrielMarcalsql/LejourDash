@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from 'react';
 import '../node_modules/react-vis/dist/style.css';
 import lejour from './lejour.svg';
@@ -5,7 +6,6 @@ import './App.css';
 import api from './api.js';
 import { ResponsivePie } from '@nivo/pie'
 import { ResponsiveBar } from '@nivo/bar'
-import dataJson from './piechart.js'
 class App extends Component {
 
   constructor(props) {
@@ -63,7 +63,7 @@ class App extends Component {
 
     for(var i = 0; i < weddings.length; i++) {
       var wedding = weddings[i];
-      if(typeof wedding.WEDDING_DATE !== 'undefined' && wedding.WEDDING_DATE != "NULL") {
+      if(typeof wedding.WEDDING_DATE !== 'undefined') {
          var yearMonth = wedding.WEDDING_DATE.substring(0, 7);
          switch(yearMonth){
            case '2020-11':
@@ -81,6 +81,8 @@ class App extends Component {
             case '2021-03':
               months.Mar++;
               break
+            default:
+
          }
       }
     }

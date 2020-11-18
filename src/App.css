@@ -12,7 +12,6 @@
 .btn-light{
   color: #86D0CB;
 }
-<<<<<<< HEAD
 .teste2{
   height: 400px;
 
@@ -20,12 +19,6 @@
 
 .footer{
 
-=======
-
-.footer{
-
-bottom: 0;
->>>>>>> 9656214394852fbb4ec2d6545d9f24d797448652
 width: 100%;
 height: 50px;
 background-color: #e2645a;
@@ -43,11 +36,7 @@ font-weight: 700;
 
 .teste1{
   border-color: green;
-<<<<<<< HEAD
   height: 200px;
-=======
-  height: 400px;
->>>>>>> 9656214394852fbb4ec2d6545d9f24d797448652
 }
 
 @media (prefers-reduced-motion: no-preference) {

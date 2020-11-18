@@ -33,7 +33,7 @@ font-weight: 700;
 
 .teste1{
   border-color: green;
-  height: 200px;
+  height: 400px;
 }
 
 @media (prefers-reduced-motion: no-preference) {

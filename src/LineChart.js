@@ -92,17 +92,36 @@ class LineChart extends Component {
             tickSize: 5,
             tickPadding: 5,
             tickRotation: 0,
+<<<<<<< HEAD
             legend: 'Quantidade de vendas por mês',
             legendOffset: 36,
             legendPosition: 'middle'
         }}
+=======
+            legend: 'Meses',
+            legendOffset: 36,
+            legendPosition: 'middle'
+        }}
+        axisLeft={{
+            orient: 'left',
+            tickSize: 5,
+            tickPadding: 5,
+            tickRotation: 0,
+            legend: 'Vendas',
+            legendOffset: -40,
+            legendPosition: 'middle'
+        }}
+>>>>>>> 9656214394852fbb4ec2d6545d9f24d797448652
         pointSize={10}
         pointColor={{ theme: 'background' }}
         pointBorderWidth={2}
         pointBorderColor={{ from: 'serieColor' }}
         pointLabelYOffset={-12}
         useMesh={true}
+<<<<<<< HEAD
         
+=======
+>>>>>>> 9656214394852fbb4ec2d6545d9f24d797448652
     />
     );
   }

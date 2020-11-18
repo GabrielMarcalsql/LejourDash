@@ -76,6 +76,7 @@ class App extends Component {
         <div className="row teste1">
           <BarChart Weddings={this.state.Weddings} />
         </div>
+<<<<<<< HEAD
         <hr/>
         <div className="row teste1">
             <LineChart Invoices={this.state.Invoices} />
@@ -92,12 +93,23 @@ class App extends Component {
         <p className="text-center"><span>{Math.round(this.state.BudgetAverage).toLocaleString('pt-BR')}</span></p></li>
 
       </ul>
+=======
+        <div className="row teste1">
+          <div className="col-md-4 text-center">
+            <ChartVendors Invoices={this.state.Invoices} />
+          </div>
+          <div className="col-md-4 text-center">
+            <LineChart Invoices={this.state.Invoices} />
+          </div>
+        </div>
+>>>>>>> 9656214394852fbb4ec2d6545d9f24d797448652
       </div>
       <div className="col-md-4">
       <h3 className="text-center textoTitulo">Booked</h3>
       <div className="row teste1">
         <PieChart Weddings={this.state.Weddings} />
       </div>
+<<<<<<< HEAD
       <h3 className="text-center textoTitulo">Fornecedor</h3>
         <div className="teste2">
         <ChartVendors Invoices={this.state.Invoices} />
@@ -106,6 +118,19 @@ class App extends Component {
     </div>
   </div>
    <footer className="footer"></footer>
+=======
+        <h6 className="text-center textoTitulo">Usuários</h6>
+        <p className="text-center"><span>{this.state.Users.length.toLocaleString('pt-BR')}</span></p>
+        <h6 className="text-center textoTitulo">Casamentos Marcados</h6>
+        <p className="text-center"><span>{this.state.Weddings.length.toLocaleString('pt-BR')}</span></p>
+        <h6 className="text-center textoTitulo">Média Budget</h6>
+        <p className="text-center"><span>{Math.round(this.state.BudgetAverage).toLocaleString('pt-BR')}</span></p>
+      </div>
+    </div>
+  </div>
+
+    <footer className="footer"></footer>
+>>>>>>> 9656214394852fbb4ec2d6545d9f24d797448652
     
   </div>
   );

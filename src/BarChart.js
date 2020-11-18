@@ -78,7 +78,11 @@ class BarChart extends Component {
         data={dataWddings}
         keys={[ 'weddings']}
         indexBy="month"
+<<<<<<< HEAD
         margin={{ top: 50, right: 110, bottom: 50, left: 60 }}
+=======
+        margin={{ top: 50, right: 130, bottom: 50, left: 60 }}
+>>>>>>> 9656214394852fbb4ec2d6545d9f24d797448652
         padding={0.3}
         valueScale={{ type: 'linear' }}
         colors={{ scheme: 'nivo' }}

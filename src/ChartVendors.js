@@ -43,8 +43,13 @@ consolidateInvoicesCategory(invoices){
     return(
       <ResponsivePie
             data={this.state.InvoicesCategory}
+<<<<<<< HEAD
             margin={{ top: 40, right: 70, bottom: 100, left: 130 }}
             innerRadius={0}
+=======
+            margin={{ top: 40, right: 80, bottom: 80, left: 80 }}
+            innerRadius={0.5}
+>>>>>>> 9656214394852fbb4ec2d6545d9f24d797448652
             padAngle={0.7}
             cornerRadius={3}
             colors={{ scheme: 'nivo' }}
